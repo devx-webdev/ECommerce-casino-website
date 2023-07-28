@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 .icon-home-1win{
     width: 40px;
@@ -54,3 +54,7 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 }
 
 
+.tvbetd{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
