@@ -49,8 +49,46 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 
 *{
-    --main-background-color :   #090F1E;
-    --white-color           :     #fff;
+    --main-background-color :  #090F1E;
+    --1win-games-block-bg-c :   #151C30;
+    --white-color           :   #fff;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.index__1win-games-middle-content-container{
+    
+}
