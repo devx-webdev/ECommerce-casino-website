@@ -111,7 +111,12 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 .index__1win-poker-right-block{
     margin-right: 25px;
 }
-
+.index__top-navbar-left-container{
+    display: flex;
+}
+.index__top-navbar-left-container div{
+    background: #000;
+}
 
 .index__1win-games-left-block .index__1win-games-header{
     margin: 25px 40px;
@@ -151,6 +156,7 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 .index__1winTV-container{
     margin-top: 3vh;
     padding-bottom: 5vh;
+}
 
 
 
@@ -257,7 +263,17 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     width: 8vw;
 }
 
+.index__categorybutton-container{
+    margin-right: 3vh; 
+}
+
 .tvbetd{
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+
+.livegamed{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
