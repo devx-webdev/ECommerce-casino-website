@@ -232,6 +232,7 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 .index__1winTV-film-banner img{
     border-radius: 10px;
+    height: 25vh;
 }
 
 .tvbetd{
