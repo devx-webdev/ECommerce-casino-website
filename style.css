@@ -240,18 +240,85 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     border-radius: 10px;
     height: 25vh;
 }
-
-.index__categorybutton-container{
-    margin-right: 3vh; 
-}
-
+  
 .tvbetd{
     color: white;
     font-family: 'Poppins', sans-serif;
+    padding-top: 3vh;
+    padding-left: 2.5vh;
+    font-size: 24px;
 }
 
 .livegamed{
     color: white;
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 2.7vh;
+    padding-left: 2.7vh;
+    font-size: 13px;
 }
 
+.index__categorybutton-container{
+    margin-left: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.index__categorybutton-firstblock{
+    background-color: #151c30;
+    width: 50vh;
+    border-radius: 12px;
+}
+
+.categorybutton-secondblock{
+    width: 50vh;
+    background-color: #151c30;
+    border-radius: 12px;
+}
+
+.casinod{
+    padding-top: 3vh;
+    padding-left: 2.5vh;
+    font-size: 24px;
+}
+
+.bilshed{
+    padding-bottom: 2.7vh;
+    padding-left: 2.7vh;
+    font-size: 13px;
+}
+
+.categorybutton-thirdblock{
+    width: 50vh;
+    background-color: #151c30;
+    border-radius: 12px;
+}
+
+.livegames2d{
+    padding-top: 3vh;
+    padding-left: 2.5vh;
+    font-size: 24px;
+}
+
+.livedilerd{
+    padding-bottom: 2.7vh;
+    padding-left: 2.7vh;
+    font-size: 13px;
+}
+
+.categorybutton-fouthblock{
+    width: 50vh;
+    background-color: #151c30;
+    border-radius: 12px;
+}
+
+.pokerd{
+    padding-top: 3vh;
+    padding-left: 2.5vh;
+    font-size: 24px;
+}
+
+.freetyrnird{
+    padding-bottom: 2.7vh;
+    padding-left: 2.7vh;
+    font-size: 13px;
+}
