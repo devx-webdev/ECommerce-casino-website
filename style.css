@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
     border: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
 }
 :before,:after{
     -moz-box-sizing: border-box;
@@ -25,7 +28,7 @@ html, body{
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     background-color: #090F1E;
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 input, button, textarea{font-family: inherit;}
@@ -85,6 +88,30 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     margin: 25px 40px;
 }
 
+.index__bonus-category{
+    display: grid;
+    grid-template-columns: 116vh 41vh 1vh;
+    margin-left: 4vh;
+}
+
+.index__1winTV-films{
+    display: grid;
+    grid-template-columns: 22vh 22vh 22vh 22vh 22vh 22vh 22vh 22vh 22vh;
+    margin-top: 3vh;
+}
+
+.index__1winTV-content{
+    background-color:   #151C30;
+    width: 1475px;
+    height: 300px;
+    margin-left: 2.5vh;
+    border-radius: 25px;
+}
+
+.index__1winTV-container{
+    margin-top: 3vh;
+    padding-bottom: 5vh;
+
 .index__1win-games-left-block .index__1win-games-header .index__1win-games-header-level{
     display: flex;      
     justify-content: space-between; 
@@ -101,6 +128,106 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     margin-top: 20px;
 }
 
+.index__1winTV-films{
+    margin-left: 2.5vh;
+}
+
+.index__1winTV-top-left-text{
+    margin-left: 5vh;
+}
+
+.index__1winTV-top-right-text{
+    margin-right: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.index__1winTV-top-right-icons{
+    margin-left: 1vh;
+}
+
+.index__1winTV-top-left-text span{
+    color: #969696;
+    font-size: small;
+}
+
+.index__1winTV-top-right-text p{
+    color: #1465a3;
+    font-weight: bold;
+}
+
+.index__1winTV-top-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vh;
+}
+
+.index__1winTV-film-name{
+    margin-left: 5vh;
+    margin-top: 2vh;
+}
+.index__1winTV-film-GranTurismo{
+    margin-left: 1vh;
+    margin-top: 2vh;
+}
+.index__1winTV-film-John-Wick{
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+.index__1winTV-film-guardians{
+    margin-top: 2vh;
+}
+.index__1winTV-film-flash{
+    margin-left: 5vh;
+    margin-top: 2vh;
+}
+.index__1winTV-film-black-adam{
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+.index__1winTV-film-fastX{
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+.index__1winTV-film-avatar{
+    margin-left: 3vh;
+    margin-top: 2vh;
+}
+.index__1winTV-film-Oppenheimer{
+    margin-left: 1vh;
+    margin-top: 2vh;
+}
+.index__1winTV-film-GranTurismo p{
+    color: #969696;
+}
+.index__1winTV-film-John-Wick p{
+    color: #969696;
+}
+.index__1winTV-film-guardians p{
+    color: #969696;
+}
+.index__1winTV-film-flash p{ 
+    color: #969696;
+}
+.index__1winTV-film-black-adam p{
+    color: #969696;
+}
+.index__1winTV-film-fastX p{
+    color: #969696;
+}
+.index__1winTV-film-avatar p{
+    color: #969696;
+}
+.index__1winTV-film-Oppenheimer p{
+    color: #969696;
+}
+.index__1winTV-film-name p{
+    color: #969696;
+}
+
+.index__1winTV-film-banner img{
+    border-radius: 10px;
+}
 
 .tvbetd{
     color: white;
