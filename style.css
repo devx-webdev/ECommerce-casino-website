@@ -43,9 +43,19 @@ img{vertical-align: top;}
 
 h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
-.icon-home-1win{
-    width: 40px;
+
+
+*::-webkit-scrollbar{
+    background-color: #090F1E;
+    width: 7px;
 }
+
+*::-webkit-scrollbar-thumb{
+    background-color: #797979;
+    border-radius: 10px;
+}
+
+
 
 *{
     --main-background-color :  #090F1E;
@@ -69,7 +79,21 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 .index__1win-games-left-block{
     margin-left: 25px ;
 }
+.index__1win-games-left-block .index__1win-games-header .index__1win-games-header-level{
+    display: flex;      
+    justify-content: space-between; 
+}
 
+.index__1win-games-left-block .index__1win-games-header .index__1win-games-header-level h1 .span-text{
+    margin-left: 15px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.index__1win-games-left-block .index__1win-games-header .index__1win-games-header-level h1 .span-svg{
+    margin-top: 20px;
+}
 .index__1win-games-left-block .index__1win-games-pre-header-line{
     width: 44vw;
     height: 5px;
@@ -82,16 +106,32 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 .index__1win-poker-right-block{
     margin-right: 25px;
 }
-
+.index__top-navbar-left-container{
+    display: flex;
+}
+.index__top-navbar-left-container div{
+    background: #000;
+}
 
 .index__1win-games-left-block .index__1win-games-header{
     margin: 25px 40px;
 }
 
 .index__bonus-category{
-    display: grid;
-    grid-template-columns: 116vh 41vh 1vh;
-    margin-left: 4vh;
+    display: flex;
+    justify-content:space-around;
+}
+
+.index__bonus-fantasy-sport-container img{
+    height: 45vh;
+}
+
+.index__bonus-cashback-container img{
+    height: 45vh;
+}
+
+.index__bonus-bonus-container img{
+    height: 45vh;
 }
 
 .index__1winTV-films{
@@ -102,8 +142,8 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 .index__1winTV-content{
     background-color:   #151C30;
-    width: 1475px;
-    height: 300px;
+    width: 97vw;
+    height: 38vh;
     margin-left: 2.5vh;
     border-radius: 25px;
 }
@@ -113,43 +153,35 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     padding-bottom: 5vh;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .index__1win-games-left-block .index__1win-games-header .index__1win-games-header-level{
     display: flex;      
     justify-content: space-between;
 }
-
 .index__1win-games-left-block .index__1win-games-header .index__1win-games-header-level h1 .span-text{
     font-size: 2rem;
     font-weight: 600;
     color: #fff;
 }
 
-.index__1win-games-left-block .index__1win-games-header .index__1win-games-header-level .index__1win-games-header-level-left-side{
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-}
-
-.index__1win-games-left-block .index__1win-games-header .index__1win-games-header-level .index__1win-games-header-level-right-side{
-    margin-top: 5px;
-    color: #1465a3;
-    cursor: pointer;
-}
-
-
-.index__1win-games-left-block .index__1win-games-header .index__1win-games-header-level .index__1win-games-header-level-right-side p{
-    color: #1465a3;
-}
-/* 
-.index__1win-games-block-image-container{
-    display: flex;
-    justify-content: space-between;
-} */
-
-
-.index__1win-games-block-header{
-    margin-left: 10px;
-}
 
 .index__1winTV-films{
     margin-left: 2.5vh;
@@ -250,8 +282,10 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 .index__1winTV-film-banner img{
     border-radius: 10px;
+    height: 25vh;
+    width: 8vw;
 }
-
+  
 .tvbetd{
     color: white;
     font-family: 'Poppins', sans-serif;
