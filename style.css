@@ -87,15 +87,12 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 .index__1win-poker-right-block{
     margin-right: 25px;
 }
-
-<<<<<<< HEAD
 .index__top-navbar-left-container{
     display: flex;
 }
 .index__top-navbar-left-container div{
-    
+    background: #000;
 }
-=======
 
 .index__1win-games-left-block .index__1win-games-header{
     margin: 25px 40px;
@@ -124,6 +121,7 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 .index__1winTV-container{
     margin-top: 3vh;
     padding-bottom: 5vh;
+}
 
 .index__1win-games-left-block .index__1win-games-header .index__1win-games-header-level{
     display: flex;      
