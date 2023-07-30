@@ -238,3 +238,13 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+
+.livegamed{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.index__categorybutton-firstblock{
+    background-color: #1465a3;
+    margin-left: 3vh; 
+}
