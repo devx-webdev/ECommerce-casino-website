@@ -54,8 +54,35 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 *{
     --main-background-color :  #090F1E;
-    --1win-games-block-bg-c :   #151C30;
+    --bg-c :   #151C30; 
     --white-color           :   #fff;
+}
+
+.index__top-navbar-container{
+    display: flex;
+    margin-left: 5vh;
+    margin-top: 2vh;
+}
+
+.index__top-navbar-left-palochka-container{
+    padding: 3vh;
+    background-color: #151c30;
+    width: 0.1vh;
+    height: 2vh;
+}
+
+.index__top-navbar-left-icons-lock-container{
+    margin-left: 2vh;
+    background-color: #151c30;
+    width: 2vh;
+    height: 2vh;
+}
+
+.index__top-navbar-left-icons-phone-container i{
+    margin-left: 2vh;
+    background-color: #151c30;
+    width: 2vh;
+    height: 2vh;
 }
 
 .index__1win-games-middle-content-container{
